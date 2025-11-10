@@ -89,12 +89,45 @@ Modifiez `quartz.layout.ts` pour personnaliser :
 - ✅ Aperçus popup
 - ✅ Rechargement à chaud
 
+## Déploiement sur GitHub Pages
+
+Le projet est configuré pour être déployé automatiquement sur GitHub Pages. Voici comment procéder :
+
+### Configuration actuelle
+
+- **URL du site:** `https://mehdiboukrif.github.io/ObsidianPublishQuartz/`
+- **Branche de déploiement:** `v4`
+- **Workflow GitHub Actions:** `.github/workflows/deploy.yml`
+
+### Étapes de déploiement
+
+1. **Activer GitHub Pages dans votre dépôt:**
+   - Allez dans Settings > Pages de votre dépôt GitHub
+   - Sous "Source", sélectionnez "GitHub Actions"
+
+2. **Pousser vos changements:**
+   - Commitez tous vos changements
+   - Poussez vers la branche `v4` de votre dépôt
+   - Le workflow GitHub Actions se déclenchera automatiquement
+
+3. **Vérifier le déploiement:**
+   - Allez dans l'onglet "Actions" de votre dépôt
+   - Vérifiez que le workflow s'exécute sans erreur
+   - Votre site sera accessible à l'URL ci-dessus après quelques minutes
+
+### Ajouter du contenu
+
+1. Ajoutez vos fichiers Markdown dans le répertoire `content/`
+2. Utilisez la syntaxe Markdown et Obsidian (liens wiki, backlinks, etc.)
+3. Testez localement dans l'aperçu Replit
+4. Poussez vers GitHub pour déployer automatiquement
+
 ## Prochaines étapes
 
 1. **Ajouter votre contenu:** Copiez vos fichiers Markdown depuis votre coffre Obsidian vers `content/`
 2. **Personnaliser la configuration:** Modifiez `quartz.config.ts` et `quartz.layout.ts`
 3. **Tester localement:** Vérifiez que tout fonctionne dans l'aperçu Replit
-4. **Déployer:** Utilisez le bouton "Publish" de Replit pour mettre en ligne
+4. **Déployer sur GitHub Pages:** Suivez les étapes ci-dessus
 
 ## Ressources
 
