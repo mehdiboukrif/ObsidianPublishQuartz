@@ -70,13 +70,6 @@ Si le générateur n'alimente qu'une partie du logement, il est nécessaire de p
 
 Dans le cas de 2 générateurs alimentant pour le premier une surface Sh1 et pour le second une surface Sh2 (Sh1 + Sh2 = Sh avec Sh la surface du logement) :
 
-$$
-\begin{aligned}
-& \text { Pch } 1=\frac{\operatorname{Sh} 1}{\text { Shtot }} * \frac{1,2 * G V *(19-\text { Tbase })}{1000 * 0,95^{3}} \\
-& \text { Pch } 2=\frac{\operatorname{Sh} 2}{\text { Shtot }} * \frac{1,2 * G V *(19-\text { Tbase })}{1000 * 0,95^{3}}
-\end{aligned}
-$$
-
 Avec :
 
 - Pch1 la puissance nominale du générateur pour le chauffage (kW) pour la surface Sh1
